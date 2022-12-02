@@ -13,14 +13,6 @@
    font-style: normal;
 }
 
-/* html {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-} */
-
-
-
 *, *:after, *:before {
     border-style: inherit;
 }
@@ -33,7 +25,7 @@ ul, li, h1, h2, a, p, body {
    display: flex;
    flex-direction: column;
    width: 320px;
-   min-height: 100vh;
+   min-height: 108vmax;
    box-shadow: 16px 0px 52px rgb(14 24 80 / 20%);
    background-color: #fff;
    left: -320px;
@@ -53,6 +45,7 @@ ul, li, h1, h2, a, p, body {
 .aside-container {
    width: 90%;
    margin: 18px auto 0 auto;
+   overflow: visible;
 }
 
 .aside-header {
@@ -123,7 +116,6 @@ ul, li, h1, h2, a, p, body {
 }
 
 .aside-footer {
-   /* position: fixed; */
 
    margin: 64px 0;
 }

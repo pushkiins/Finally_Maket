@@ -1,3 +1,5 @@
+# Link to Deploy: https://gre1pk.github.io/Kata-stage1
+
 # Webpack Static Site Starter Kit
 
 ## Требования к проекту
