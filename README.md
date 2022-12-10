@@ -1,4 +1,4 @@
-# Link to Deploy: https://gre1pk.github.io/Kata-stage1
+# Link to Deploy: https://pushkiins.github.io/Kata-stage1/src/
 
 # Webpack Static Site Starter Kit
 
