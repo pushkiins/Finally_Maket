@@ -5,13 +5,21 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   // Входной файл
-  entry: [
-    './src/js/index.js'
-  ],
+  entry: ['./src/js/index.js'],
 
   // Выходной файл
   output: {
     filename: './js/bundle.js'
+  },
+
+  devServer: {
+    // hot: true,
+    inline: true,
+    host: "localhost",
+    // port: 8083,
+    watchOptions: {
+      poll: true,
+    },
   },
 
   // Source maps для удобства отладки
